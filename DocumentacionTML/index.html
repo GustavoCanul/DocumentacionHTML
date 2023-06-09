@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TareasCuatri2</title>
+</head>
+<body>
+    <!-- Ejemplo 1 -->
+    <div> 
+         <div> <!--Este contenedor es totalmente inecesario ya que solo se contiene un elemento -->
+            <p>El hombre es fuego; la mujer, estopa; llega el diablo y sopla.</p>
+            <p>Para el amor y la muerte, no hay cosa mas fuerte.</p>
+            <p>Viejo el pajar, malo de encender y peor de apagar.</p>
+        </div>
+        <div>
+            <p>¿Enseñas sin saber? como sea el culo, no sé qué.</p>
+            <p>Practicar hace al maestro; que no leer en el cuaderno.</p>
+        </div>
+    </div>
+    <!-- Ejemplo 2 -->
+    <p>Tristes guerras<br/> <!-- aca podemos ver como hacemos uso de la etiqueta br para poder reflejar los saltos de linea-->
+    si no es amor la empresa.<br/>
+    Tristes. Tristes.</p>
+
+    <p>Tristes armas<br/>
+    si no son las palabras.<br/> <!-- suelo cerrar la etiqueta, por que me dijeron que hace uso de una buena practica. Realmente no se que tan verdadero sea-->
+    Tristes. Tristes.</p>
+
+    <p>Tristes hombres<br/>
+    si no mueren de amores.<br/>
+    Tristes. Tristes</p>
+    <!-- Ejemplo 3 -->
+    <p><span class="personaje">Superman</span> vive en <span class="lugar">Metrópolis</span> y <!-- El elemento span, es un contenedor en linea, adiferencia del div. Este elemento se puede colocar en elementos de textos para que por medio de una clase o id se le agregue stilos.-->
+    tiene muchos superpoderes:
+    <span class="superpoder">superfuerza</span> <!-- aca podemos ver el uso de este elemento con el uso de la clase superpoder -->
+    <span class="supervision">supervision</span> etc.</p>
+    <!-- Ejemplo 4 -->
+    <p>Es la <em>última</em><!--Utilizamos este elemento para hacer énfasis a una palabra en especifica haciendola cambiar su estilo de letra.--> vez que te lo digo.</p>
+    <!-- Ejemplo 5 -->
+    <p>Acuérdate de apagar las luces y <strong>cerrar la puerta con llave</strong><!--Utilizamos este elemento para indicar la importancia o seriedad del contenido o el contexto--> al salir de casa.</p>
+    <!-- Ejemplo 6 -->
+    <p>PVP: 999€ <small>(IVA no incluido)</small><!--Este elemento nos indica que es informacion secundaría, y por esta misma razón todo lo que este dentro de la etiqueta se mostrara de letra paqueña-->.</p>
+    <!-- Ejemplo 7 -->
+    <s>La etiqueta &lt;s&gt; estaba desaconsejada en HTML 4.</s> <!-- este elemento nos indica que todo lo que este adentro de el es incorrecto, posteriormente lo tacha con una linea-->
+    En HTML 5 la etiqueta &lt;s&gt; se usa para marcar información obsoleta.
+    <!-- Ejemplo 8 -->
+    <p>El primer libro de Milan Kundera que leí fue <cite>la vida está en otra parte</cite><!--Todo lo que este en el elemnto nos indica una referencia a una obra cultural, tambien suele representarse en cursiva-->.</p>
+    <!-- Ejemplo 9 -->
+    <p>Un <dfn>byte</dfn><!--Este elemento esta pensando para identificar donde se define un termino de un texto--> con ocho bits.</p>
+    <!-- Ejemplo 10 -->
+    <p>Sitúa el cursor del ratón sobre la abreviatura <abbr title="cónfer (compárese, véase)">cf</abbr><!--La etiqueta <abbr> está pensada para etiquetar abreviaturas o acrónimos. Si la etiqueta incluye el atributo title, este debe contener el significado de la abreviatura.--> para ver su significado</p>
+    <!-- Ejemplo 11 -->
+    <p>La recomendación HTML 5 se aprobó el <time datetime="2014-10-28">28 de octubre de 2014</time><!--Este elemento(etiqueta) esta pensado para incluir fechas o horas por medio de su atributo date time, esta informacion solo es legible para maquinas-->.</p>
+    <!-- Ejemplo 12 -->
+    <p>En los navegadores, pulsando <kbd>Ctrl+t</kbd><!--Este elemento esta pensando para identificar pulsaciones de teclas o textos tecleado por el usuario--> se abre una nueva pestaña.</p>
+    <!-- Ejemplo 13 -->
+    <p>2 H<sub>2</sub> + 0 <sub>2</sub> &rarr; 2 H<sub>2</sub><!--Esta echo para indenticar el texto sub indice-->0</p>
+    <!-- Ejemplo 14 -->
+    <p>El nombre cientifico del perro es <i>canis lupus</i><!--Este elemto se utiliza para identificar un texto con un significado especial, como nombres de especies, terminos tecnicos inclusive expresiones extrangeras-->.</p>
+    <!-- Ejemplo 15 -->
+    <p>Polillas que se destacan,<br/>
+    <b>Nopol</b>, <b>Nopol</b>, <b>Nopol</b><!--Este elemtno se usa para textos en los que se quiere llamar la atencion pero que tambien indiquen que no es importante--> las mata.</p>
+    <!-- Ejemplo 16 -->
+    <p>La primera frase  de la recomendación HTML 5 es <q>The World Wide Webs markup language has <mark>always</mark><!--Utilizamos este elemento para resaltar todo el texto que este dentro de la etiqueta--> been HTML</q></p>
+    <!-- Ejemplo 17 -->
+    <img src="pixeles.jpg" alt="error" width="80px"><!--Utilizamos el elemento img para agregar imagenes.
+    El atributo (src) es necesario para direccionar el documento que queremos agregar en nuestra protecto.
+    Utilizamos el atributo (alt) para poner una descripcion dado caso que no sea correcta la direccion de la imagen o ocurra algun error.
+    Tambien utilizamos el atributo (width) para agregar el ando que nosostros proporcionemos, este atributo biene de la mano con heigth, que es para la altura.
+    -->
+    <!-- Ejemplo 18 -->
+    <p>Enlace a la <a href="https://plataforma.utmetropolitana.edu.mx/panel/panel_alumno.php">pagina de las calificaciones</a><!--Utilizamos este elemento de hiper enlace (a) 
+    para por medio del atributo (href=) agregar una direccion a la que deciemos dirigir-->.</p> 
+    <!-- Ejemplo 19 -->
+    <p>Internet explorer 6 era un navegador bastante <del>malo</del><!--Todo la informacion que este dentro el elemtnto del, es para identificar el texto que se ha eliminado de una pagina al revisarla--> mejorable. Internet Explorer 7 cumplía mejor
+    las recomendaciones del W3C</p>
+    <!-- Ejemplo 20 -->
+    <p>La verdad es que Microsoft podría haber mejorado antes su navegador<ins>, respetando las recomendaciones del W3C</ins><!--Todo lo que este en este elemento esta pensado para identificar el texto se ha añadido 
+    a una pagina al revisarlo-->.</p>
+    <!-- Ejemplo 21 -->
+    <ol><!--Por medio de este elemento indicamos si realizamos listas agrupadas o no agrupadas-->
+        <li>La libertad de usar el programa, con cualquier propósito.</li>
+        <li>La libertad de estudiar como funciona el programa y adaptarlo a tus necesidades.</li>
+        <li>La libertad de distribuir copias del programa.</li>
+        <li>La libertad de mejorar el programa y hacer públicas las mejoras a los démas.</li>
+    </ol>
+    <!-- Ejemplo 22 -->
+    <dl> <!--delimita la lista completa-->
+        <dt>Software</dt> <!--delimita los términos-->
+        <dd>Conjunto de programas, intrucciones y reglas informaticas para ejecutar ciertas tareas en una coputadora</dd><!--Determina las definiciones-->
+        <dt>Libre</dt>
+        <dd>Que tiene la facultad para obrar o no obrar.</dd>
+        <dd>Que no es esclavo</dd>
+        <dd>Que no está preso</dd>
+        <dd>Licencioso,</dd>
+    </dl>
+    <!-- Ejemplo 23 -->
+    <ol>
+        <li>Item 1</li> 
+        <ol>
+            <li>Item 1 de sublista</li><!--Aca comenzamos con el anidadamiento-->
+            <ol>
+                <li>Item 1 de sub-sublista</li><!--Aca hacemos otro anidadamiento de un una lista que ya estaba anidada-->
+                <li>Item 2 de sub-sublista</li>
+            </ol>
+            <li>Item 2 de sublista</li>
+            <ol>
+                <li>Item 1 de sub-sublista</li>
+                <li>Item 2 de sub-sublista</li>
+            </ol>
+            <li>Item 3 de sublista</li>
+            <li>Item 4 de sublista</li>
+        </ol>
+        <li>Item 2</li>
+        <ol>
+            <li>Item de sublista</li>
+            <li>Item de sublista</li>
+        </ol>
+    </ol>
+    <!--REALMENTE NO VEMOS NADA NUEVO EN ESTE EJEMPLO MAS QUE VER LOS EJEMPLOS DE COMO ANIDAR, PERO COMO VEMOS EL UNICO PROBLEMA ES SOLO NO REVOLVERSE-->
+    <!-- Ejemplo 24 -->
+    <table border="1" ><!--Por medio de este elemento indicamos que anidaremos informacion en la tabla-->
+        <caption>Hacemos referencia a las columnas y la tabla puede tener una leyenda gracias a esta etiqueta y se muestra afuera de la tabla</caption>
+        <tbody><!--Se organiza por grupos y filas-->
+        <tr><!--Este elemento define un nuevo renglon-->
+            <td></td> <!--En este elemento agregamos datos en la tabla, según mi conocimiento de principiante, no se suele usar para los cabecers como en este ejemplo-->
+            <th>A</th> <!--indicamos el cabecero de la tabla-->
+            <th>B</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>A1</td>
+            <td>B1</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>A2</td>
+            <td>B2</td>
+        </tr>
+    </tbody>
+    <!--CABE ACLARAR QUE LOS DEMAS EJEMPLOS SIGUEN ESTE MISMO CONCEPTO-->
+    </table>
+    <!-- Ejemplo 25 -->
+    <!--La etiqueta <form> es un elemento de bloque. En su interior puede haber cualquier elemento
+típico de una página web (párrafos, imágenes, divisiones, listas, tablas, etc.), además de las
+etiquetas que crean los controles.--><form action="ejemplo.php" method="get"><!--Los atributos mas importantes de esta etiqueta son:
+action <- este atributo contiene el nombre del agente que procesará los datos remitidos al servidor,el atributo method define la manera de enviar los datos al servidor. Los valores posbles son este atributo son get y post-->
+        <p>Nombre: <input type="text" name="nombre" size="40"></p><!--los tipos de input se pueden definir por medio de la etiqueta type. los tipos de input son: submit, Input Search.
+            Input Email.
+            Input URL.
+            Input Tel.
+            Input Number. ETC -->
+        <p>Año de nacimiento: <input type="number" name="nacido" min="1900"></p><!--Como podemos obsrvar en este elemtno input tenemos el atributo name, este atributo nos ayuda a identificar el control
+        pero en general, los atributos name no se deben repetir, porque no se recibiría toda la información
+al enviarla. La única excepción es el botón radio, como se explica en el apartado
+correspondiente. -->
+        <p>Sexo:  
+        <input type="radio" name="hm" value="h"> Hombre <!--en este input tambien podemos observar que tenemos el atributo value, este atributo nos permite establecer el valor inicial de un control, aunque cada control
+        lo utiliza de una forma ligeramente distinta y algunos controles no lo admiten(área de texto, archivo o imagen)-->
+        <input type="radio" name="hm" value="m"> Mujer</p>
+    </form>
+    <!--Ejemplo 26-->
+    <p>Sexo
+        <input type="radio" name="hm" value="h" required>Hombre <!--El atributo requiered permite indicar qué controles es obligatorio rellenar para enviar el formulario
+        en este caso si alguna de las opciones de un botón radio tiene establecido el atributo requiered, el control es obligatorio-->
+        <input type="radio" name="hm" value="m" required>Mujer
+    </p>
+    <p>
+        Edad:
+        <input type="radio" name="edad" value="menor"> Menor
+        <input type="radio" name="edad" value="adulto" required>Adulto
+    </p>
+    <!-- Ejemplo 27 -->
+    <p>
+        Apellidos:
+        <input type="text" name="apellidos" size="40" placeholder="Escriba sus dos apellidos"> <!--El atributo placeholder nos permite mostrar en los controles de texto un texto que desaparecera al escribir en el control-->
+    </p>
+    <!-- Ejemplo 28 -->
+    <p>Nombre: <input type="text" name="nombre"></p>
+<!--el atributo size nos permite establecer la longitud de los controles de texto(text, password, search, etc.) por omisión, las cajas suelen tener 20 caracteres de longitud-->
+    <p>Apellidos: <input type="text" name="apellidos" size="40"></p>
+
+    <p>Nacionalidad: <input type="text" name="nacionalidad" size="20"></p>
+    <!-- Ejemplo 29 -->
+    <input type="submit" value="Enviar" disabled> 
+    <!--El atributo disanable permite desabilitar el control. Una vez deshabilitado, el control ni si quiera puede recoger el foco.-->
+    <p>Nacionalidad: <input type="text" name="nacionalidad" size="20"></p>
+    <!-- Ejemplo 30 -->
+    <p>Usuario: <input type="text" name="usuario" maxlength="6"></p>
+    <!-- El atributo disabled permite desabilitar el control. Una vez desabilitado, el control ni siquiera puede recoger el foco -->
+    <p>Constraseña: <input type="password" name="password" maxlength="6"></p>
+    <!-- Ejemplo 31 -->
+    <input type="text" name="name" value="¡A que no me cambias!" readonly>
+    <!-- El atributo readonly hace que el control no se modifique, aunque el control puede recoger el foco -->
+    <input type="text" name="texto" placeholder="¡A que no me cambias!" readonly>
+    <!-- Ejemplo 32 -->
+    <input type="text" name="texto1" placeholder="Texto 1" tabindex="5">
+    <input type="text" name="texto2" placeholder="Texto 2" tabindex="8">
+    <input type="text" name="texto3" placeholder="Texto 3" tabindex="7">
+    <input type="text" name="texto4" placeholder="Texto 4" tabindex="5">
+    <!--El atributo tabindex permite controlar el orden en que el foco pasa de un elemento a otro
+mediante el tabulador (Tab para avanzar y Shift+Tab para retroceder). Los valores de
+tabindex pueden ser números naturales (incluido el cero), no necesariamente consecutivos. Si
+no está presente, los controles se visitan en el orden en que aparecen en el texto. Si está
+presente, los controles se visitan de menor a mayor.-->
+
+    <!-- EJEMPLOS DE LOS INPUT FALTANTES -->
+    <!-- input y button -->
+    <input type="button" value="Este botón no hace nada"> 
+    <!-- Los botones se crean mediante la etiqueta <input> o mediante la etiqueta <button>. La
+        diferencia entre ellos es que <input> sólo puede contener texto, mientras que <button>
+        permite incluir elementos html como imágenes. -->
+
+        <!-- input y button -->
+        <button type="button">
+            <img src="cdlibre.png" alt="cdlibre.org" width="32" height="32" style="vertical-align: middle;">
+            Este botón no hace nada
+        </button>
+        <!-- Normalmente los botones no suelen llevar atributo name, pero se puede poner si se quiere
+(tendría sentido si un formulario contuviera dos botones de envío y quisiéramos saber en cuál
+de ellos ha hecho clic el usuario, pero esto no es muy habitual). -->
+
+            <!-- input y button -->
+            <input type="submit" value="Enviar">
+
+            <button type="submit">
+                <img src="send.svg" alt="imagen" width="32" height="32" style="vertical-align:middle;">
+                Enviar
+                <!-- En este ejemplo lo unico que hicimos fue agregar una imagen detro de un botton -->
+            </button>
+
+            <!--BOTONES RESET MEDIANTE <input> 0 <button>-->
+                <input type="reset" value="Borrar"> 
+
+            <button type ="reset">
+                <img src="Borrar.jpg" alt="imagen" width="32" height="32" style="Vertical-align: middle">
+                Borrar
+            </button>
+
+            <!--BOTÓN GENERAL MEDIANTE <input> O <button>-->
+                <input type="button" onclick="mensaje ('Ha pulsado el boton')" value="Boton">
+                
+                <script>
+                    function mensaje(texto) {
+                        alert(texto);
+                    }   
+                </script>
+
+            <!--CAJA DE TEXTO: <input type="text">-->
+            <input type="Text" name="Texto" placeholder="Escriba algo">
+
+            <!--CAJA DE TEXTO DE CONTRASEÑA: <input type="password">-->
+            <p> Contraseña: <input type="password" name="Contraseña" minlength="6"></p>
+
+            <!--NÚMERO: <input type="number">-->
+            <p>Escriba un número: <input type = "number" name="numero"></p>
+
+            <!--BÚSQUEDA: <input type="search">-->
+            <p>Búsqueda: <input type="search" name="Búsqueda" size="40"></p>
+            
+            <!--TELÉFONO: <input type="tel">-->
+            <p>Teléfono: <input type="tel" name="telefono"></p>
+
+            <!--URL: <INPUT TYPE="URL">-->
+            <p>URL: <input type="url" name="dirección" size="40"></p>
+
+            <!--DIRECCIÓN DE CORREO ELECTRÓNICO: <input type="email">-->
+            <p>Correo: <input type="email" name="correo" size="40"></p>
+
+            <!--FECHA: <input type="date">-->
+            <p>Fecha: <input type="date" name="fecha"></p>
+
+            <!--MES: <input type="month">-->
+            <p>Mes: <input type="month" name="mes"></p>
+
+            <!--SEMANA: <input type="week">-->
+            <p>Semana: <input type="week" name="Semana"></p>
+
+            <!--HORA: <input type="time">-->
+            <p>Hora: <input type="time" name="hora"></p>
+
+            <!--CASILLA DE VERIFICACIÓN: <input type="checkbox">-->
+            <input type="checkbox" name="Casilla">Casilla 1
+
+            <input            type="checkbox"                  name="Casilla"        value="hola">Casilla 1 <br>
+            
+            <!--BOTÓN RADIO: <input type="radio">-->
+
+            <input  type="radio"   name="boton"  value="1">Opcion 1 <br>
+            <input  type="radio"   name="boton"  value="2">Opcion 2 <br>
+            <input  type="radio"   name="boton"  value="3">Opcion 3 <br>
+
+            <!--SELECTOR DE COLOR: <input type="color">-->
+            <input type="color"  name="colorElegido"  value="3071194"> 
+
+            <!--RANGO: <input type="range">-->
+            <p>Indique su nivel ( de 0 a 1, de 0,1 en 0,1):<input type="range"  name="rango"  min="0"  max="1" step="0.1"></p>
+
+            <!--SELECTOR DE ARCHIVO: <input type="file">-->
+            <input type="file" name="archivo"><br>
+
+            <!--IMAGEN: <input type="image">-->
+            <p>Haga clic en el circulo negro o fuera de el:<input type="image"  name="punto"  src="punto.jpg"  alt="punto" width="50"  height="50"></p>
+
+            <!--CONTROL OCULTO: <input type="hidden">-->
+            <input type="hidden" name="nombre" value="Karen">
+
+            <!--ÁREA DE TEXTO: <textarea>-->
+            <textarea  name="Texto"  rows="5"   cols="50">Escriba lo que sea</textarea><br>
+
+            <!--MENÚ: <select>-->
+            <p>Seleccione una opcion:
+            <select name="Manu">
+                <option value=>...</option>
+                <option value="1">Perros</option> 
+                <option value="2">Pizza</option> 
+                <option value="3">Pasta</option>
+                <option value="4">Hamburguesas</option>
+            </select> 
+            </p>
+
+            <p>Seleccione una opcion:
+            <select name="Manu">
+                <option selected>...</option>
+                <optgroup label="Grupo1"> 
+                    <option value="1">Pizza</option> 
+                    <option value="2">Pasta</option>
+                    <option value="3">Hamburguesas</option>
+                </optgroup> 
+                <optgroup label="Grupo2"> 
+                    <option value="4">Chocolate</option> 
+                    <option value="5">Pay</option>
+                    <option value="6">Flan</option>
+                </optgroup> 
+            </select>
+            </p>
+            
+            <!--GRUPOS DE CONTROLES: <fieldset>-->
+                <fieldset>
+                    <legend>Datos personales</legend> 
+                    <p>Nombre: <input type="text"  name="nombre"  size="30"></p>
+                    <p>Edad: <input type="number"  name="edad"></p>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Cultura General</legend>
+                    <p>Capital de Noruega:
+                        <input type="radio" name="p1" value="1">Copenhague
+                        <input type="radio" name="p1" value="2">Helsinki
+                        <input type="radio" name="p1" value="3">Oslo
+                    </p>
+                    <p>Fecha de la revolución francesa:</p>
+                        <input type="radio" name="p2" value="1">1435
+                        <input type="radio" name="p2" value="2">1883
+                        <input type="radio" name="p2" value="3">2023
+                </fieldset>
+
+            <!--RELACIÓN IMPLÍCITA-->
+            <label><input   type="checkbox"    name="Casilla">Casilla 1</label><br>
+
+            <laber>Nombre: <input type="text"  name="Casilla"></laber><br>
+
+            <!--RELACIÓN EXPLÍCITA: EL ATRIBUTO for-->
+            <input  type="checkbox"  name="casilla"  id="casilla1">
+            <label for="casilla1">Casilla 1</label><br>
+
+            <label for="text1">Nombre:</label>
+            <input type="text"  name="casilla"  id="text1">
+
+            <!--DETALLES <details>-->
+            <p>En la Universidad Autonoma de Yucatan...</p>
+
+            <details>
+                <summary>Spoiler</summary>
+                <p>La calidad de estudio y de grandes maestros disminuyo con el paso del tiempo</p>
+            </details>
+
+            <!--RESUMEN <summary>-->
+            <p>El oso panda gigante (Ailuropoda melanoleuca) es un insaciable devorador de bambú. Un ejemplar medio se pasa la mitad del día comiendo (literalmente, 12 de cada 24 horas) y hace sus necesidades docenas de veces al día. Hacen falta 12,5 kilogramos de bambú para cubrir las necesidades alimenticias diarias de un panda gigante, que arranca ansiosamente los tallos con los alargados huesos de sus muñecas, usándolos a modo de pulgares. Ocasionalmente también comen pájaros o roedores.</p>
+
+            <details>
+                <ul> 
+                    <li>Bambu: Comida de los pandas</li>
+                    <li>Extinccion: Cuando se va desapareciendo su especie</li>
+                    <li>WWF: Pagina que habla de los animales</li>
+                </ul>
+            </details>
+
+            <!--VENTANA DE DIÁLOGO <dialog>-->
+            <dialog id="dialog=1">
+                <h1>VENTANA DE DIALOGO</h1>
+
+                <p>Ejemplo de la ventana</p>
+                
+                <p> 
+                    <input  type="button"  value="cerrar" onclick="document.getElementById('dialog-1').removeAttribute('open')">
+                </p>
+            </dialog>
+
+            <p>
+                <input type="button"  value="Muestra del dialogo"  onclick="document.getElementById('dialog-1').setAttribute('open','open')">
+
+            </p><br>
+
+            <!--INSERTAR UNA PÁGINA WEB---CHECAR-->
+            <object
+                type="text/html"
+                data="aún no termino la tarea"
+                style="width: 1000px; height: 500px">
+            </object><br>
+
+            <!--INSERTAR UN VÍDEO DE YOUTUBE-->
+            <object
+                type="application/x-shockwave-flash"
+                data="https://www.youtube.com/watch?v=ZAyn6C9IFBA&ab_channel=GotTalentEspa%C3%B1a"
+                style="width: 500px; height: 400px;">
+                <param
+                    name="movie"
+                    value="https://www.youtube.com/watch?v=ZAyn6C9IFBA&ab_channel=GotTalentEspa%C3%B1a">
+            </object><br>
+            <link rel="icon" type="image/vnd.microsoft.icon" href="imagen.ico">
+            
+            <!--INSERTAR UN ARCHIVO PDF-->
+            <object
+                type="application/pdf"
+                data=""
+                style="width: 1000px; height: 550px;">
+            </object>
+
+            <link rel="icon" type="image/vnd.microsoft.icon" href="imagen.ico">
+
+</body>
+</html>
